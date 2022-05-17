@@ -1,0 +1,16 @@
+.container{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   gap:5px;
+   border-bottom: 1px solid black;
+   width: 300px;
+   margin: auto;
+   margin-top: 10px;
+}
+.img{
+    height: 80px;
+    width:80px;
+    border-radius: 30px;
+}
