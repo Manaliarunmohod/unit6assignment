@@ -1,0 +1,321 @@
+{
+  "Rest":[  {
+    "id":1,
+    "name":"URU Brewpark",
+
+    "cost":123,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["Pizza","dessert","asian"],
+    "total_votes":4.3,
+    "reviews":100,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+},
+{
+    "id":2,
+    "name":"Hotal Al Hayat",
+    "cost":300,
+    "payment_methods":{
+        "card": false,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["NonVeg","asian"],
+    "total_votes":0.5,
+    "reviews":100,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+},
+{
+    "id":3,
+    "name":"Golden Bakery",
+    "cost":350,
+    "payment_methods":{
+        "card": true,
+        "cash": false,
+        "upi": false
+    },
+    "categories":["dessert","bakery"],
+    "total_votes":2.0,
+    "reviews":67,
+ "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":4,
+    "name":"Domino's",
+    "cost":200,
+    "payment_methods":{
+        "card":false,
+        "cash": false,
+        "upi": true
+    },
+    "categories":["pizza"],
+    "total_votes":2.3,
+    "reviews":67,
+ "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":5,
+    "name":"The Old Cook House",
+    "cost":290,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["pizza","sandwich"],
+    "total_votes":3.7,
+    "reviews":107,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":6,
+    "name":"Cafe Rio",
+    "cost":310,
+    "payment_methods":{
+        "card": false,
+        "cash": false,
+        "upi": true
+    },
+    "categories":["pizza","sandwich","coffee"],
+    "total_votes":2.0,
+    "reviews":101,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":7,
+    "name":"URU Brewpark",
+    "cost":123,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": false
+    },
+    "categories":["Pizza","dessert","asian"],
+    "total_votes":0.1,
+    "reviews":100,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":8,
+    "name":"Hotal Al Hayat",
+    "cost":300,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["NonVeg","asian"],
+    "total_votes":4.5,
+    "reviews":100,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":9,
+    "name":"Golden Bakery",
+    "cost":350,
+    "payment_methods":{
+        "card": false,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["dessert","bakery"],
+    "total_votes":3.0,
+    "reviews":67,
+ "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":10,
+    "name":"Domino's",
+    "cost":200,
+    "payment_methods":{
+        "card": false,
+        "cash": true,
+        "upi": false
+    },
+    "categories":["pizza"],
+    "total_votes":5.0,
+    "reviews":67,
+ "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":11,
+    "name":"The Old Cook House",
+    "cost":290,
+    "payment_methods":{
+        "card": true,
+        "cash": false,
+        "upi": true
+    },
+    "categories":["pizza","sandwich"],
+    "total_votes":3.7,
+    "reviews":107,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":12,
+    "name":"Cafe Rio",
+    "cost":310,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["pizza","sandwich","coffee"],
+    "total_votes":2.0,
+    "reviews":101,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":13,
+    "name":"URU Brewpark",
+    "cost":123,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["Pizza","dessert","asian"],
+    "total_votes":4.3,
+    "reviews":100,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":14,
+    "name":"Hotal Al Hayat",
+    "cost":300,
+    "payment_methods":{
+        "card": false,
+        "cash": true,
+        "upi": false
+    },
+    "categories":["NonVeg","asian"],
+    "total_votes":4.5,
+    "reviews":100,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":15,
+    "name":"Golden Bakery",
+    "cost":350,
+    "payment_methods":{
+        "card": true,
+        "cash": false,
+        "upi": true
+    },
+    "categories":["dessert","bakery"],
+    "total_votes":3.0,
+    "reviews":67,
+   "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":16,
+    "name":"Domino's",
+    "cost":200,
+    "payment_methods":{
+        "card": true,
+        "cash": false,
+        "upi": true
+    },
+    "categories":["pizza"],
+    "total_votes":4.0,
+    "reviews":67,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":17,
+    "name":"The Old Cook House",
+    "cost":290,
+    "payment_methods":{
+        "card": true,
+        "cash": true,
+        "upi": false
+    },
+    "categories":["pizza","sandwich"],
+    "total_votes":3.7,
+    "reviews":107,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":18,
+    "name":"Cafe Rio",
+    "cost":310,
+    "payment_methods":{
+        "card": false,
+        "cash": true,
+        "upi": true
+    },
+    "categories":["pizza","sandwich","coffee"],
+    "total_votes":2.0,
+    "reviews":101,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":19,
+    "name":"The Old Cook House",
+    "cost":290,
+    "payment_methods":{
+        "card": false,
+        "cash": true,
+        "upi": false
+    },
+    "categories":["pizza","sandwich"],
+    "total_votes":3.7,
+    "reviews":107,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+}
+,
+{
+    "id":20,
+    "name":"Cafe Rio",
+    "cost":310,
+    "payment_methods":{
+        "card": true,
+        "cash": false,
+        "upi": false
+    },
+    "categories":["pizza","sandwich","coffee"],
+    "total_votes":2.0,
+    "reviews":101,
+    "img":"https://b.zmtcdn.com/data/pictures/8/19507698/b6d749ed4cc2d794cf8ccd491989ed12_o2_featured_v2.jpg?output-format=webp"
+
+
+}
+]
+}
