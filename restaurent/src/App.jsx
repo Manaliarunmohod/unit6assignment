@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
+import {Form} from "./Component/Form"
  import  {Food}  from './Component/Food'
 function App() {
   
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Food/>
-      
+     <Form/> 
     </div>
   )
 }

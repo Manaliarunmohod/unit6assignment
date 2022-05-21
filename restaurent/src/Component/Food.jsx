@@ -7,10 +7,13 @@ import { FoodCart } from "./FoodCart";
 
 export const Food=()=>{
      const [foods, setFoods ]=useState([]);
+
+     const [page,setpage]=useState(1);
+     const perpage=4;
    
    useEffect(()=>{
-       getData()
-   },[])
+       getData(page,perpage)
+   },[page,perpage])
  
 
    const handlesort=(sortby,type)=>{
@@ -65,9 +68,12 @@ if(sortby==="all"){
 }
    }
 
-    const getData=()=>{
+    const getData=(page,perpage)=>{
         axios.get("http://localhost:8080/rest",{
             method:"GET",
+            params:{
+                _page:page,_limit:perpage
+            }
            
           }) .then((res)=>{
          
@@ -105,9 +111,15 @@ if(sortby==="all"){
             
        
       )}
+    
 
      
       </div>
+      <button style={{height:"100px",width:"100px"}} onClick={()=>setpage(page-1)
+    } disabled={page===1}
+    >Pre</button>
+      <button style={{height:"100px",width:"100px"}} onClick={()=>setpage(page+1)}>Next</button>
+
         </>
     )
 }
