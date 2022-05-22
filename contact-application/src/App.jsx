@@ -7,6 +7,7 @@ function App() {
     <div className="App">
      <Contactlist/>
      <button>Add</button>
+     <button>Add</button>
     </div>
   );
 }
