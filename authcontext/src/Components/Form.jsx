@@ -1,4 +1,16 @@
 
+  import {
+    Flex,
+    Button,
+    Heading,
+    Input,
+    Spacer,
+      VStack,
+      Box,
+    Center,
+    useToast,
+  } from "@chakra-ui/react";
+  
   import { useContext, useState } from "react";
   import { AuthContext } from "../Context/AuthContext";
   export const Form = () => {
@@ -6,7 +18,7 @@
   
     const [user, setUser] = useState({ email: "", password: "" });
   
-   // const alert = useToast();
+    const alert = useToast();
   
     const [token, setToken] = useState("");
   
@@ -34,53 +46,68 @@
             setToken(data.token);
             toggleAuth();
             setIsLogin(true);
-            // alert({
-            //   title: "Login Successfull.",
-            //   description: "Welcome to Dashboard...",
-            //   status: "success",
-            //   position: "bottom-right",
-            //   duration: 5000,
-            //   isClosable: true,
-            // });
+            alert({
+              title: "Login Successfull.",
+              description: "Welcome to Dashboard...",
+              status: "success",
+              position: "bottom-right",
+              duration: 5000,
+              isClosable: true,
+            });
           } else if (data.error) {
-            // alert({
-            //   title: "Email or Password is wrong...",
-            //   description: `${data.error}`,
-            //   status: "error",
-            //   position: "bottom-right",
-            //   duration: 5000,
-            //   isClosable: true,
-            // });
+            alert({
+              title: "Email or Password is wrong...",
+              description: `${data.error}`,
+              status: "error",
+              position: "bottom-right",
+              duration: 5000,
+              isClosable: true,
+            });
           }
         });
     };
   
     return isLogin ? (
-    <div>
-            <h2 isTruncated>Login Successfull</h2>
-        <h2 isTruncated>Token : {token}</h2>
-        </div>
+      <Box
+        bg="primary"
+        maxW={400}
+        p="40px 20px"
+        m="100px auto"
+        rounded={5}
+        border={"1px solid lightblue"}
+        boxShadow="outline"
+      >
+        <Heading isTruncated>Login Successfull</Heading>
+        <Heading isTruncated>Token : {token}</Heading>
+      </Box>
     ) : (
       <form onSubmit={handleSubmit}>
-     
-         <h2>Login</h2>
-
-         <input  type="text"
+        <VStack
+          gap={3}
+          maxW={400}
+          p="40px 20px"
+          m="100px auto"
+          rounded={5}
+          border={"1px solid lightblue"}
+          boxShadow="outline"
+        >
+          <Heading>Login</Heading>
+          <Input
+            type="text"
             name="email"
             placeholder="Enter email..."
-            onChange={handleChange}></input>
-          
-          
-            <input  type="text"
+            onChange={handleChange}
+          />
+          <Input
+            type="text"
             name="password"
             placeholder="Enter password..."
-            onChange={handleChange}></input>
-        
-        
-          <button type="submit" >
+            onChange={handleChange}
+          />
+          <Button type="submit" colorScheme="blue" w="100%">
             Login
-          </button>
-       
+          </Button>
+        </VStack>
       </form>
     );
   };
